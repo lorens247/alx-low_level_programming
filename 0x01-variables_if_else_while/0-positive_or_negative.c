@@ -5,7 +5,7 @@
 /**
  * main - entry point
  *
- * Description: This program will assign a random number to the variable n each time it is executed.
+ * Description: Assign a random number to the variable n
  *
  * Return: always 0 (success)
  *
