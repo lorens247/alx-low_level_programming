@@ -17,7 +17,7 @@ int main(void)
 		sum = f1 + f2;
 		printf("%lu", sum);
 
-		f1 = f;
+		f1 = f2;
 		f2 = sum;
 
 		if (count == 49)
