@@ -2,9 +2,9 @@
 
 /**
  * main - list all natural numbers below 1024
- * 	that are multiples of 3 or 5
+ * that are multiples of 3 or 5
  *
- * 	Return: always 0
+ * Return: always 0
  */
 
 int main(void)
