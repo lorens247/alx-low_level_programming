@@ -4,7 +4,7 @@
  * jack_bauer - prints every minute of the day of Jack Bauer
  * starting from 00:00 to 23:59
  *
- * Return: value of the last digit
+ * return: always 0
  */
 
 void jack_bauer(void)
@@ -15,15 +15,15 @@ void jack_bauer(void)
 	{
 		j = 0;
 	while (j < 60)
-		{
-			_putchar((i / 10) + '0');
-			_putchar((i % 10) + '0');
-			_putchar(':');
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
-			_putchar('\');
-			j++;
-		}
-			i++
+	{
+		_putchar((i / 10) + '0');
+		_putchar((i % 10) + '0');
+		_putchar(':');
+		_putchar((j / 10) + '0');
+		_putchar((j % 10) + '0');
+		_putchar('\n');
+		j++;
+	}
+		i++;
 	}
 }
