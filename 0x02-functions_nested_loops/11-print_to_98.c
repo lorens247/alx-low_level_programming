@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_to_98 - function to print all natural numbers from 
+ * print_to_98 - function to print all natural numbers from
  * n to 98
  * @n: number to begin the countinf at
  */
