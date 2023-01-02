@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_line - Function that draws a straight line in the terminal.
+ * print_line - Function that draws a straight line.
  * @n : The number of '_' characters to use
  * Return: Void.
  */
