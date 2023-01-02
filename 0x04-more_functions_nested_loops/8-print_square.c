@@ -6,6 +6,7 @@
  * @n : The number of lines using '\' characters to use
  * Return: Void.
  */
+
 void print_square(int n)
 {
 	int x;
