@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_diagonal - Function that draws a square.
+ * print_square - Function that draws a square.
  * @n : The number of lines using '\' characters to use
  * Return: Void.
  */
