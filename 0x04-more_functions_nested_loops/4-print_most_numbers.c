@@ -3,12 +3,13 @@
 /**
  * print_most_numbers - prints
  * 0 to 9 excluding 2 and 4
+ * @c : an integer
  * Return: void
  */
 
 void print_most_numbers(void)
 {
-	char c;
+	int c;
 
 	for (c = '0'; c <= '9'; c++)
 	{
