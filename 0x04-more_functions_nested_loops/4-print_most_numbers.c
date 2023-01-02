@@ -5,7 +5,7 @@
  * print_most_numbers -  Function that prints the numbers
  * from 0 to 9 excluding 2 and 4
  * @c: Integer holding the character
- * Return: Void.
+ * Return: Void
  */
 
 void print_most_numbers(void)
