@@ -1,13 +1,12 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * _strstr- returns bytes of segment
- * @haystack: destination string
- * @needle: constant byte
- *
- * Return: void.
- */
+* _strstr - function locate
+* @haystack: pointer to char
+* @needle: pointer to char
+* Return: 0
+*/
+
 char *_strstr(char *haystack, char *needle)
 {
 	char *result = haystack, *fneedle = needle;

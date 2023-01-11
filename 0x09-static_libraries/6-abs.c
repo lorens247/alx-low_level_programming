@@ -1,11 +1,18 @@
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * _abs - checks if character is lower or upper
- * @c: takes input to function
- * Return: Always 0 (Success)
+ * _abs - check the code for Holberton School students.
+ *
+ * @n: is an integer argument
+ *
+ * Return: Always 0.
  */
-int _abs(int c)
+
+int _abs(int n)
 {
-	return (abs(c));
+	if (n >= 0)
+	{
+		return (n);
+	}
+	return (-n);
 }

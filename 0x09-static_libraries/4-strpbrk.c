@@ -1,28 +1,27 @@
-#include "main.h"
-#include <string.h>
+#include "holberton.h"
+#include <stdio.h>
 
 /**
- * _strpbrk- returns bytes of segment
- * @s: destination string
- * @accept: constant byte
- *
- * Return: void.
+ * _strpbrk - bytes
+ * @s: pointer to char
+ * @accept: pointer to char
+ * Return: NULL
  */
+
 char *_strpbrk(char *s, char *accept)
 {
-	int a = strlen(s);
-	int b = strlen(accept);
-	int i = 0;
+	int i;
 
-	for (; i < a; i++)
+	while (*s)
 	{
-		int j = 0;
-
-		for (; j < b; j++)
+		for (i = 0; accept[i]; i++)
 		{
-			if (s[i] == accept[j])
-				return (&s[i]);
+			if (*s == accept[i])
+			{
+				return (s);
+			}
 		}
+		s++;
 	}
 	return (NULL);
 }
