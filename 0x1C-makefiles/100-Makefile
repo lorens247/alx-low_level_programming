@@ -1,0 +1,26 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+# Declare phony targets
+.PHONY: all clean oclean fclean re
+
+# Default target
+all: m.h $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Clean up temporary and executable files
+clean:
+	$(RM) *~ $(NAME)
+
+# Clean up object files
+oclean:
+	$(RM) $(OBJ)
+
+# Clean everything
+fclean: clean oclean
+
+# Clean object files and rebuild
+re: oclean all

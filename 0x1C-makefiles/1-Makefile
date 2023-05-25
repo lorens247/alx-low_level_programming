@@ -1,0 +1,15 @@
+# Makefile for building the 'school' executable
+
+# Compiler to be used
+CC = gcc
+
+# Source code files
+SRC = main.c school.c
+
+# Default target
+all: $(SRC)
+	$(CC) $(SRC) -o school
+
+# The 'all' target depends on the source code files specified in $(SRC).
+# It compiles the source code files using the compiler specified in $(CC)
+# and produces the 'school' executable.

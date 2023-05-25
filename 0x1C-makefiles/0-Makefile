@@ -1,0 +1,9 @@
+# Makefile for building the 'school' executable
+
+# Default target
+all: main.c school.c
+	gcc main.c school.c -o school
+
+# The 'all' target depends on 'main.c' and 'school.c'.
+# It compiles the source code files using the 'gcc' compiler
+# and produces the 'school' executable.

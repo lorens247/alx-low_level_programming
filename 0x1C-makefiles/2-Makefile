@@ -1,0 +1,21 @@
+# Makefile for building the 'school' executable
+
+# Compiler to be used
+CC = gcc
+
+# Source code files
+SRC = main.c school.c
+
+# Object files
+OBJ = $(SRC:.c=.o)
+
+# Executable name
+NAME = school
+
+# Default target
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# The 'all' target depends on the object files specified in $(OBJ).
+# It links the object files using the compiler specified in $(CC)
+# and produces the 'school' executable.
